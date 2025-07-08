@@ -1,0 +1,46 @@
+/* large.css - enhancements for larger screens */
+
+@media (min-width: 600px) {
+  body {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  header {
+    padding: 1rem 2rem;
+  }
+
+  .navigation {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: transparent;
+    border-top: none;
+  }
+
+  .navigation a {
+    padding: 0.75rem 1.5rem;
+    border: none;
+  }
+
+  button {
+    display: none; /* hide menu toggle on larger screens */
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .course-card {
+    margin: 0;
+    padding: 1.5rem;
+  }
+
+  footer {
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+}

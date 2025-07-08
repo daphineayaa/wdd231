@@ -1,0 +1,97 @@
+/* small.css - dark blue/green theme */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0b1c2c; /* deep navy blue */
+  color: #e0f2f1; /* very light teal */
+}
+
+header, nav, main, footer {
+  padding: 1rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #102a43; /* dark blue */
+  border-bottom: 1px solid #1c3d5a;
+}
+
+header span {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #cce3dc; /* soft mint */
+}
+
+.navigation {
+  display: none;
+  flex-direction: column;
+  background-color: #102a43; /* same as header */
+  border-top: 1px solid #1c3d5a;
+}
+
+.navigation.open {
+  display: flex;
+}
+
+.navigation a {
+  padding: 0.75rem;
+  text-decoration: none;
+  color: #e0f2f1;
+  border-bottom: 1px solid #1c3d5a;
+}
+
+.navigation a:hover,
+.navigation a.active {
+  background-color: #2e7d32; /* dark green accent */
+  color: white;
+}
+
+button {
+  background: none;
+  border: none;
+  color: #e0f2f1;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #66bb6a; /* soft green */
+}
+
+.course-card {
+  padding: 1rem;
+  margin: 0.5rem 0;
+  background-color: #15324c; /* deeper blue background */
+  border: 1px solid #1c3d5a;
+  border-radius: 6px;
+  color: #e0f2f1;
+  transition: all 0.3s ease-in-out;
+}
+
+.completed {
+  border-left: 6px solid #43a047; /* green for completed */
+}
+
+.not-completed {
+  border-left: 6px solid #c62828; /* red for not completed */
+}
+
+footer {
+  margin-top: 2rem;
+  border-top: 1px solid #1c3d5a;
+  font-size: 0.9rem;
+  color: #cce3dc;
+}
+
+footer .social a {
+  margin-right: 1rem;
+  color: #66bb6a; /* light green accent */
+  text-decoration: none;
+}
+
+footer .social a:hover {
+  text-decoration: underline;
+}
