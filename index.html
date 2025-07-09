@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="WDD 231 - Course Home Page" />
+  <meta name="author" content="Your Name" />
+  <title>WDD 231: Course Home Page</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="styles/normalize.css" />
+  <link rel="stylesheet" href="styles/small.css" />
+  <link rel="stylesheet" href="styles/larger.css" />
+
+  <!-- JavaScript Files -->
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+  <script src="scripts/course.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <img src="images/logo.svg" alt="Logo" width="50" height="50">
+
+    <span>Ayaa Daphine</span>
+    <button id="menu" aria-label="Toggle Navigation">☰</button>
+  </header>
+
+  <nav class="navigation">
+    <a href="index.html" class="active">Home</a>
+    <a href="#">Chamber</a>
+    <a href="#">Final</a>
+  </nav>
+
+  <main>
+    <h1>Home</h1>
+
+    <section>
+      <h2>Welcome</h2>
+      <p>Welcome to my WDD 231 course home page. This site is built using HTML, CSS, and JavaScript and follows all best practices for responsiveness and accessibility.</p>
+    </section>
+
+    <section>
+      <h2>Certificate Courses</h2>
+      <div id="courses"></div>
+      <p>Total Credits: <span id="totalCredits">0</span></p>
+      <div>
+        <button id="all">All Courses</button>
+        <button id="wdd">WDD Courses</button>
+        <button id="cse">CSE Courses</button>
+      </div>
+    </section>
+
+    <section>
+      <h2>About Me</h2>
+      <p>I’m a student in the Web Frontend Development program at BYU-Idaho. I enjoy designing websites that are clean, functional, and responsive.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="social">
+      <a href="https://github.com/daphineayaa" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/daphineayaa" target="_blank">LinkedIn</a>
+      <a href="#">Other</a>
+    </div>
+    <p>&copy; <span id="currentyear"></span> Ayaa Daphine - Uganda</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
