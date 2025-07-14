@@ -10,6 +10,8 @@
   <link rel="icon" href="images/favicon.ico" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
   <link rel="stylesheet" href="styles/styles.css" />
+  <script src="scripts/weather.js" defer></script>
+  <script src="scripts/spotlight.js" defer></script>
   <script src="scripts/script.js" defer></script>
 </head>
 
@@ -28,9 +30,52 @@
   </header>
 
   <main>
-    <section>
-      <h2>Welcome to the Greater North Youth Association</h2>
-      <p>Empowering youth-led businesses and fostering economic development in Gulu and beyond. Explore our directory to connect with active members in the region.</p>
+    <!-- Hero and Info Side by Side -->
+    <section class="hero-layout">
+      <!-- Hero Image and Text -->
+      <div class="hero">
+        <img src="images/hero.jpg" alt="Community outreach in Gulu">
+        <div class="hero-text">
+          <h2>Stronger Together</h2>
+          <p>Empowering youth-led businesses and local leaders</p>
+          <a href="directory.html" class="cta-button">Join the Chamber</a>
+        </div>
+      </div>
+
+      <!-- Side Info Content -->
+      <div class="info-content">
+        <!-- Welcome Section -->
+        <section class="welcome">
+          <h2>Welcome to the Greater North Youth Association</h2>
+          <p>Our mission is to unite, support, and promote the youth of Northern Uganda through community, entrepreneurship, and development initiatives that foster growth and opportunity for all members of our community.</p>
+        </section>
+
+        <!-- Events Section -->
+        <section class="events">
+          <h2>Upcoming Events</h2>
+          <ul>
+            <li><strong>July 20:</strong> Youth Business Expo - Gulu City</li>
+            <li><strong>August 1:</strong> Chamber Networking Breakfast</li>
+          </ul>
+        </section>
+
+        <!-- Weather Section -->
+        <section class="weather">
+          <h2>Weather in Gulu</h2>
+          <p><strong>Today:</strong> <span id="current-temp"></span> &mdash; <span id="weather-desc"></span></p>
+          <div id="forecast">
+            <!-- Forecast injected by JS -->
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- Member Spotlights -->
+    <section class="spotlights">
+      <h2>Member Spotlights</h2>
+      <div id="spotlight-container" class="grid">
+        <!-- Spotlights injected by JS -->
+      </div>
     </section>
   </main>
 
