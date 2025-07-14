@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Directory of Greater North Youth Association members" />
+  <meta name="author" content="Ayaa Daphine" />
+  <title>Member Directory | Greater North Youth Association</title>
+
+<link rel="icon" href="images/favicon.png" type="image/png" />
+  <meta property="og:title" content="Member Directory | Greater North Youth Association" />
+  <meta property="og:description" content="Explore our member businesses and organizations in Gulu." />
+  <meta property="og:image" content="images/preview.jpg" />
+  <meta property="og:url" content="https://your-github-username.github.io/wdd231/chamber/directory.html" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="styles/styles.css" />
+  <script src="scripts/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Greater North Youth Association</h1>
+    <p>Member Directory | Gulu, Uganda</p>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="directory.html" class="active">Directory</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="view-buttons">
+      <button id="gridView" aria-label="Grid View">Grid View</button>
+      <button id="listView" aria-label="List View">List View</button>
+    </div>
+    <section id="members-container" class="grid"></section>
+  </main>
+
+  <footer>
+    <p>Contact: info@gulu.org | +256 700 000 000</p>
+    <p>Ayaa Daphine | WDD 231</p>
+    <p id="lastModified"></p>
+    <p>&copy; <span id="year"></span> Greater North Youth Association</p>
+  </footer>
+</body>
+</html>

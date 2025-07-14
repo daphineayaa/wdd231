@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Lira Organic Farms",
+    "address": "123 Green Road, Gulu",
+    "phone": "+256 000 000 000",
+    "website": "https://liraorganicfarms.com",
+    "image": "farm.png",
+    "membershipLevel": 3
+  },
+  {
+    "name": "Gulu Tech Solutions",
+    "address": "456 Tech Street, Gulu",
+    "phone": "+256 111 111 111",
+    "website": "https://gulutechsolutions.com",
+    "image": "tech.jpg",
+    "membershipLevel": 2
+  },
+  {
+    "name": "Northern Crafts",
+    "address": "789 Artisan Lane, Gulu",
+    "phone": "+256 222 222 222",
+    "website": "https://northerncrafts.gulu",
+    "image": "crafts.jpg",
+    "membershipLevel": 1
+  },
+  {
+    "name": "Gulu Transport Ltd",
+    "address": "12 Transit Avenue, Gulu",
+    "phone": "+256 333 333 333",
+    "website": "https://gulutransport.com",
+    "image": "transport.jpg",
+    "membershipLevel": 2
+  },
+  {
+    "name": "Healthy Living Clinic",
+    "address": "34 Wellness Blvd, Gulu",
+    "phone": "+256 444 444 444",
+    "website": "https://healthylivingclinic.gulu",
+    "image": "clinic.jpg",
+    "membershipLevel": 3
+  },
+  {
+    "name": "Gulu Bakery",
+    "address": "56 Sweet Street, Gulu",
+    "phone": "+256 555 555 555",
+    "website": "https://gulubakery.com",
+    "image": "bakery.webp",
+    "membershipLevel": 1
+  },
+  {
+    "name": "Sunrise Energy",
+    "address": "78 Solar Road, Gulu",
+    "phone": "+256 666 666 666",
+    "website": "https://sunriseenergy.gulu",
+    "image": "energy.jpg",
+    "membershipLevel": 2
+  }
+]
