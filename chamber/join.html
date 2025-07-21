@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Join Us - Greater North Youth Association</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Greater North Youth Association</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="directory.html">Directory</a>
+      <a href="join.html">Join</a>
+        <a href="thankyou.html">Thank You</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="layout">
+      <div class="form-wrapper">
+        <form method="get" action="thankyou.html">
+          <label>
+            First Name:
+            <input type="text" name="fname" title="First Name" autocomplete="given-name" required />
+          </label>
+          <label>
+            Last Name:
+            <input type="text" name="lname" title="Last Name" autocomplete="family-name" required />
+          </label>
+          <label>
+            Organization Title:
+            <input type="text" name="orgtitle" title="Title in Organization" autocomplete="organization-title" pattern="[A-Za-z\-\s]{7,}" />
+          </label>
+          <label>
+            Email:
+            <input type="email" name="email" title="Email" autocomplete="email" placeholder="example@domain.com" required />
+          </label>
+          <label>
+            Mobile Phone:
+            <input type="tel" name="phone" title="Mobile Number" autocomplete="tel" required />
+          </label>
+          <label>
+            Business/Organization Name:
+            <input type="text" name="organization" title="Organization Name" autocomplete="organization" required />
+          </label>
+          <label>
+            Membership Level:
+            <select name="membership" title="Membership Level">
+              <option value="np">NP Membership (Free)</option>
+              <option value="bronze">Bronze</option>
+              <option value="silver">Silver</option>
+              <option value="gold">Gold</option>
+            </select>
+          </label>
+          <label>
+            Business Description:
+            <textarea name="description" title="Business Description"></textarea>
+          </label>
+          <input type="hidden" name="timestamp" id="timestamp" />
+          <input type="submit" value="Apply Now" />
+        </form>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <h3>NP Membership</h3>
+          <a href="#" onclick="document.getElementById('npModal').showModal(); return false;">More Info</a>
+        </div>
+        <div class="card">
+          <h3>Bronze Membership</h3>
+          <a href="#" onclick="document.getElementById('bronzeModal').showModal(); return false;">More Info</a>
+        </div>
+        <div class="card">
+          <h3>Silver Membership</h3>
+          <a href="#" onclick="document.getElementById('silverModal').showModal(); return false;">More Info</a>
+        </div>
+        <div class="card">
+          <h3>Gold Membership</h3>
+          <a href="#" onclick="document.getElementById('goldModal').showModal(); return false;">More Info</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Greater North Youth Association</p>
+  </footer>
+
+  <!-- Modals -->
+  <dialog id="npModal">
+    <h2>NP Membership Benefits</h2>
+    <p>Free membership for nonprofit organizations. Access to events and community exposure.</p>
+    <button onclick="document.getElementById('npModal').close()">Close</button>
+  </dialog>
+  <dialog id="bronzeModal">
+    <h2>Bronze Membership Benefits</h2>
+    <p>Access to training sessions, event invitations, and monthly newsletter highlights.</p>
+    <button onclick="document.getElementById('bronzeModal').close()">Close</button>
+  </dialog>
+  <dialog id="silverModal">
+    <h2>Silver Membership Benefits</h2>
+    <p>All Bronze benefits plus spotlight ads on homepage and discounts for vendor booths.</p>
+    <button onclick="document.getElementById('silverModal').close()">Close</button>
+  </dialog>
+  <dialog id="goldModal">
+    <h2>Gold Membership Benefits</h2>
+    <p>All Silver benefits plus sponsored content, event speaking opportunities, and top-tier ads.</p>
+    <button onclick="document.getElementById('goldModal').close()">Close</button>
+  </dialog>
+
+  <script>
+    // Fill hidden timestamp on page load
+    document.getElementById('timestamp').value = new Date().toISOString();
+  </script>
+</body>
+</html>
