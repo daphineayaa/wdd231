@@ -30,51 +30,68 @@
   </header>
 
   <main>
-    <!-- Hero and Info Side by Side -->
+    <!-- Hero Section -->
     <section class="hero-layout">
-      <!-- Hero Image and Text -->
       <div class="hero">
-        <img src="images/hero.jpg" alt="Community outreach in Gulu">
+        <img src="images/hero.jpg" alt="Community outreach in Gulu" />
         <div class="hero-text">
           <h2>Stronger Together</h2>
           <p>Empowering youth-led businesses and local leaders</p>
-          <a href="thankyou.html" class="cta-button">Join the Chamber</a>
+          <a href="join.html" class="cta-button">Join the Chamber</a>
         </div>
       </div>
+    </section>
 
-      <!-- Side Info Content -->
-      <div class="info-content">
-        <!-- Welcome Section -->
-        <section class="welcome">
-          <h2>Welcome to the Greater North Youth Association</h2>
-          <p>Our mission is to unite, support, and promote the youth of Northern Uganda through community, entrepreneurship, and development initiatives that foster growth and opportunity for all members of our community.</p>
-        </section>
+    <!-- Info Content Below Hero -->
+    <section class="info-content">
+      <section class="welcome">
+        <h2>Welcome to the Greater North Youth Association</h2>
+        <p>Our mission is to unite, support, and promote the youth of Northern Uganda through community, entrepreneurship, and development initiatives that foster growth and opportunity for all members of our community.</p>
+      </section>
 
-        <!-- Events Section -->
-        <section class="events">
-          <h2>Upcoming Events</h2>
-          <ul>
-            <li><strong>July 20:</strong> Youth Business Expo - Gulu City</li>
-            <li><strong>August 1:</strong> Chamber Networking Breakfast</li>
-          </ul>
-        </section>
+      <section class="events">
+        <h2>Upcoming Events</h2>
+        <ul>
+          <li><strong>July 20:</strong> Youth Business Expo - Gulu City</li>
+          <li><strong>August 1:</strong> Chamber Networking Breakfast</li>
+        </ul>
+      </section>
 
-        <!-- Weather Section -->
-        <section class="weather">
-          <h2>Weather in Gulu</h2>
-          <p><strong>Today:</strong> <span id="current-temp"></span> &mdash; <span id="weather-desc"></span></p>
-          <div id="forecast">
-            <!-- Forecast injected by JS -->
-          </div>
-        </section>
-      </div>
+      <section class="weather">
+        <h2>Weather in Gulu</h2>
+        <p><strong>Today:</strong> <span id="current-temp"></span> &mdash; <span id="weather-desc"></span></p>
+        <div id="forecast">
+          <!-- Forecast injected by JS -->
+        </div>
+      </section>
     </section>
 
     <!-- Member Spotlights -->
     <section class="spotlights">
       <h2>Member Spotlights</h2>
-      <div id="spotlight-container" class="grid">
-        <!-- Spotlights injected by JS -->
+      <div id="spotlight-container">
+        <!-- Example static spotlights, replace or have JS inject these -->
+        <div class="member-spotlight">
+          <img src="images/member1.jpg" alt="Lira Organic Farms" />
+          <div class="member-info">
+            <h3>Lira Organic Farms</h3>
+            <p>Supporting sustainable agriculture with fresh organic produce for local markets.</p>
+          </div>
+        </div>
+        <div class="member-spotlight">
+          <img src="images/member2.jpg" alt="Gulu Tech Solutions" />
+          <div class="member-info">
+            <h3>Gulu Tech Solutions</h3>
+            <p>Innovative IT services empowering businesses through technology and training.</p>
+          </div>
+        </div>
+        <div class="member-spotlight">
+          <img src="images/member3.jpg" alt="Northern Crafts Cooperative" />
+          <div class="member-info">
+            <h3>Northern Crafts Cooperative</h3>
+            <p>Promoting traditional artisan crafts with community-based fair trade initiatives.</p>
+          </div>
+        </div>
       </div>
     </section>
   </main>
@@ -85,5 +102,11 @@
     <p id="lastModified"></p>
     <p>&copy; <span id="year"></span> Greater North Youth Association</p>
   </footer>
+
+  <script>
+    // Simple scripts to fill year and last modified
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('lastModified').textContent = 'Last Modified: ' + document.lastModified;
+  </script>
 </body>
 </html>
