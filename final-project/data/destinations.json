@@ -1,0 +1,140 @@
+[
+  {
+    "id": 1,
+    "name": "Murchison Falls National Park",
+    "region": "north",
+    "description": "A stunning national park known for the dramatic waterfalls and abundant wildlife including elephants, lions, and giraffes.",
+    "bestTime": "December to February",
+    "image": "images/murchison-falls-national.jpg",
+    "details": "Murchison Falls is located in northwestern Uganda and offers amazing safari experiences with the Nile River cutting through the park creating breathtaking scenery."
+  },
+  {
+    "id": 2,
+    "name": "Bwindi Impenetrable Forest",
+    "region": "west",
+    "description": "Home to endangered mountain gorillas, this dense forest offers trekking experiences unlike any other.",
+    "bestTime": "June to September",
+    "image": "images/bwindi.jpg",
+    "details": "Bwindi is a UNESCO World Heritage Site, offering gorilla tracking tours that require a permit. It is one of the richest biodiversity hotspots in Africa."
+  },
+  {
+    "id": 3,
+    "name": "Lake Bunyonyi",
+    "region": "west",
+    "description": "A picturesque lake surrounded by terraced hills and dotted with small islands, perfect for relaxation and water activities.",
+    "bestTime": "June to August",
+    "image": "images/lake-bunyonyi.jpg",
+    "details": "Lake Bunyonyi is known as the 'Place of many little birds'. It is the second deepest lake in Africa and offers boat trips, swimming, and bird watching."
+  },
+  {
+    "id": 4,
+    "name": "Kampala City",
+    "region": "central",
+    "description": "The vibrant capital city of Uganda, full of culture, markets, nightlife, and history.",
+    "bestTime": "Year-round",
+    "image": "images/kampala-city.jpg",
+    "details": "Kampala offers an exciting urban experience with museums, shopping, lively nightlife, and diverse cuisine."
+  },
+  {
+    "id": 5,
+    "name": "Jinja — Source of the Nile",
+    "region": "east",
+    "description": "Adventure capital of Uganda, where the White Nile begins its journey.",
+    "bestTime": "December to March",
+    "image": "images/nile-river.jpg",
+    "details": "Jinja is famous for white-water rafting, bungee jumping, and relaxing at lakeside resorts."
+  },
+  
+
+  {
+    "id": 7,
+    "name": "Sipi Falls",
+    "region": "east",
+    "description": "A series of three stunning waterfalls on the edge of Mount Elgon.",
+    "bestTime": "January to May",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=60",
+    "details": "Great for hiking, abseiling, and scenic views."
+  },
+  {
+    "id": 8,
+    "name": "Ziwa Rhino Sanctuary",
+    "region": "central",
+    "description": "Uganda's only place to see rhinos in the wild.",
+    "bestTime": "June to September",
+    "image": "images/Rhino-sanctuary.jpg",
+    "details": "This sanctuary offers guided walks and rhino tracking experiences."
+  },
+  {
+    "id": 9,
+    "name": "Queen Elizabeth National Park",
+    "region": "west",
+    "description": "Diverse landscapes and wildlife including tree-climbing lions and hippos.",
+    "bestTime": "June to September",
+    "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=60",
+    "details": "One of Uganda's most popular parks with boat cruises and game drives."
+  },
+  {
+    "id": 10,
+    "name": "Lake Mburo National Park",
+    "region": "central",
+    "description": "Known for its lakes, wildlife, and traditional Ankole culture.",
+    "bestTime": "June to September",
+    "image": "images/Lake-Mburo.jpg",
+    "details": "Great for horseback safaris and bird watching."
+  },
+  {
+    "id": 11,
+    "name": "Mount Elgon National Park",
+    "region": "east",
+    "description": "A massive extinct volcano with caves, waterfalls, and hiking trails.",
+    "bestTime": "January to May",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=60",
+    "details": "Popular for hiking and exploring caves."
+  },
+  {
+    "id": 12,
+    "name": "Kalangala (Ssese Islands)",
+    "region": "central",
+    "description": "A beautiful archipelago on Lake Victoria with sandy beaches and fishing villages.",
+    "bestTime": "December to March",
+    "image": "images/sese-islands.jpg",
+    "details": "Ideal for relaxation, swimming, and exploring islands."
+  },
+  {
+    "id": 13,
+    "name": "Kidepo Valley National Park",
+    "region": "north",
+    "description": "Remote and pristine park with unique wildlife and landscapes.",
+    "bestTime": "December to February",
+    "image": "images/kidepo-valley.jpg",
+    "details": "Known for its big game and bird watching."
+  },
+  {
+    "id": 14,
+    "name": "Igongo Cultural Centre",
+    "region": "west",
+    "description": "A cultural hub showcasing traditional crafts, music, and history.",
+    "bestTime": "Year-round",
+    "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=60",
+    "details": "Perfect place to learn about Ugandan culture and history."
+  },
+  {
+    "id": 15,
+    "name": "Nile River Adventures",
+    "region": "central",
+    "description": "Various water sports and activities along the Nile River.",
+    "bestTime": "December to March",
+    "image": "images/river-nile.jpg",
+    "details": "Includes rafting, kayaking, and fishing."
+  },
+    {
+        "id": 16,
+        "name": "Kibale National Park",
+        "region": "west",
+        "description": "Famous for its chimpanzee tracking and diverse primate species.",
+        "bestTime": "June to September",
+        "image": "images/kabale-park.jpg",
+        "details": "Offers guided walks to see chimpanzees and other primates in their natural habitat."
+    }
+]
+

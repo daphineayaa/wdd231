@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Form Submission</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Form Submitted</h1>
+    <p>Below is your submitted data:</p>
+    <pre id="output"></pre>
+    <p><a href="contact.html">Back to Contact Form</a></p>
+  </main>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const data = {};
+    for (const [key, value] of params.entries()) {
+      data[key] = value;
+    }
+    document.getElementById('output').textContent = JSON.stringify(data, null, 2);
+  </script>
+</body>
+</html>

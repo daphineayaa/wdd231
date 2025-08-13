@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Destinations — Uganda Travel Guide</title>
+  <meta name="description" content="Explore recommended destinations in Uganda with detailed info and travel tips, like the best time to visit and what to see." />
+  <meta name="author" content="Ayaa Daphine" />
+  <meta name="keywords" content="Uganda, travel, destinations, tourism, travel guide" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect rx='20' width='100' height='100' fill='%23345db2'/><text x='50' y='60' font-size='50' text-anchor='middle' font-family='Arial' fill='white'>U</text></svg>" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Uganda Travel Guide</a>
+      <button id="nav-toggle-2" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav-2">☰</button>
+      <nav id="primary-nav-2" class="primary-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="destinations.html" aria-current="page">Destinations</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Destinations</h1>
+    <p>Filter by region and view detailed info on each destination.</p>
+
+    <div class="controls">
+      <label for="filter">Filter by region:</label>
+      <select id="filter" aria-label="Filter destinations by region">
+        <option value="all">All</option>
+        <option value="central">Central</option>
+        <option value="west">West</option>
+        <option value="east">East</option>
+        <option value="north">North</option>
+      </select>
+      <button id="clear-favs" class="btn">Clear Favorites</button>
+    </div>
+
+    <div id="list" class="list" aria-live="polite"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year-2"></span> Uganda Travel Guide — <a href="attributions.html">Attributions</a></p>
+      <p><a href="#video-link">Project Video (placeholder)</a></p>
+    </div>
+  </footer>
+
+  <div id="modal-root"></div>
+
+  <script type="module" src="scripts/main.js"></script>
+</body>
+</html>
